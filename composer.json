@@ -1,0 +1,53 @@
+{
+    "name": "ohmyfin/ohmyfin-php",
+    "description": "Official PHP SDK for Ohmyfin API - SWIFT transaction tracking, validation, and SSI data (previously known as TrackMySwift)",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://ohmyfin.ai",
+    "keywords": [
+        "ohmyfin",
+        "swift",
+        "swift-code",
+        "bic",
+        "iban",
+        "banking",
+        "transaction",
+        "tracking",
+        "correspondent-banking",
+        "ssi",
+        "payment-validation",
+        "trackmyswift"
+    ],
+    "authors": [
+        {
+            "name": "Ohmyfin",
+            "email": "support@ohmyfin.ai",
+            "homepage": "https://ohmyfin.ai"
+        }
+    ],
+    "support": {
+        "email": "support@ohmyfin.ai",
+        "issues": "https://github.com/ohmyfin/ohmyfin-php/issues",
+        "source": "https://github.com/ohmyfin/ohmyfin-php"
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ohmyfin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ohmyfin\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
