@@ -29,7 +29,7 @@ composer require ohmyfin/ohmyfin-php
 
 ## Quick Start
 
-Get your API key at [https://ohmyfin.ai](https://ohmyfin.ai)
+Get your API key at [https://ohmyfin.ai/for-banks](https://ohmyfin.ai/for-banks)
 
 ```php
 <?php
@@ -57,7 +57,7 @@ echo $result['status']; // 'success', 'in progress', 'rejected', etc.
 
 ```php
 $client = new Ohmyfin(
-    'your-api-key',           // Required - get yours at https://ohmyfin.ai
+    'your-api-key',           // Required - get yours at https://ohmyfin.ai/for-banks
     'https://ohmyfin.ai',     // Optional - API base URL
     30                        // Optional - request timeout in seconds
 );
@@ -186,9 +186,9 @@ try {
 ## Links
 
 - **Website:** [https://ohmyfin.ai](https://ohmyfin.ai)
-- **API Documentation:** [https://ohmyfin.ai/api-documentation](https://ohmyfin.ai/api-documentation)
-- **Get API Key:** [https://ohmyfin.ai](https://ohmyfin.ai)
-- **Support:** support@ohmyfin.ai
+- **API Documentation:** [https://ohmyfin.ai/profile/api](https://ohmyfin.ai/profile/api) (available after approval)
+- **Get API Key:** [https://ohmyfin.ai/for-banks](https://ohmyfin.ai/for-banks)
+- **Support:** hello [at] ohmyfin.ai
 
 ## About Ohmyfin
 
@@ -197,6 +197,8 @@ try {
 **We do not provide any financial services.**
 
 ## Trademarks
+
+Ohmyfin is a registered trademark of Ohmyfin Limited. Trademark application no. UK00004317799. All rights reserved.
 
 SWIFT, BIC, UETR, and related terms are trademarks owned by S.W.I.F.T. SC, headquartered at Avenue Adele 1, 1310 La Hulpe, Belgium. Ohmyfin is not affiliated with S.W.I.F.T. SC. Other product and company names mentioned herein may be trademarks of their respective owners.
 
